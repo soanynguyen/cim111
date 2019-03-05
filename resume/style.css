@@ -1,0 +1,51 @@
+header{
+    height: 200px;
+    width: 200%
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/ce/9f/7e/ce9f7eb5f6803e748217e279bb2f03e1.jpg);
+}
+
+article {
+    
+    background-color: white;    
+    color: blue;
+    }
+   
+h1 {
+    color: white;
+    font-family: 'Bangers', cursive;
+    }
+    
+h2 {
+    color: blue;
+      text-align: center;
+}
+
+body {
+    background-color: red;
+    }
+    
+
+#facts {
+    background-color: red;
+    color: white;
+    }
+
+aside {
+  background-color: black;  
+  color: red;  
+
+}
+a {
+  color: orange;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:link {
+  text-decoration: none;
+}
