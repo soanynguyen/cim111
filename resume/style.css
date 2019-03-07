@@ -20,7 +20,14 @@ h1 {
     
 h2 {
     color: blue;
-      text-align: center;
+    text-align: center;
+    border: 5px solid red;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+p.fast {
+    color: yellow;
 }
 
 body {
@@ -48,4 +55,7 @@ a:hover {
 
 a:link {
   text-decoration: none;
+}
+
+p {
 }
