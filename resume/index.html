@@ -5,6 +5,7 @@
      <meta name="keywords" content="resume">
      <meta name="description" content="job">
 	<title>Spirder-Man Needs a Job</title>
+    <link rel="stylesheet" type="text/css" href="reset.css"> 
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
@@ -16,11 +17,11 @@
 <body>
 <!-- MY REAL NAME IS PETER PARKER -->
 <header>
-<h1>Spider-Man's Resume</h1>
+<h1 class="title">Spider-Man's Resume</h1>
     <img src="spiderman.png" height="250">
 </header>
 <article>
-    <h2>About Me</h2>
+    <h2 class="title">About Me</h2>
     <p>I'm fast, flexible, and I need a job fast. I live in New York City so I'm familiar with every inch of this metropolitan city. I'm 16 and live with my Aunt May and Uncle Ben while attending high school. I'm eager to learn and my passion is fighting crime.</p>
 
 <a href="https://www.youtube.com/watch?v=ApXoWvfEYVU" target="_blank">Click here to see my highlights!</a> <br>
@@ -30,7 +31,7 @@
 
 <article>
 	<hr>
-	    <h2>Education</h2>
+	    <h2 class="title">Education</h2>
 <!-- unordered list -->
 <h3>Forrest Hill Community High School</h3>
 <p><i>Expected Graduation May 2020</i></p>
@@ -45,9 +46,10 @@
 <hr>
 <article>
 
-    <h2>Work Experience</h2>
+    <h2 class="title">Work Experience</h2>
 <!-- unordered list -->
-<h3>Pizza Palace</h3>
+<div class="jobs">
+<h3 id="pizza">Pizza Palace</h3>
 <p><i>Delivery Driver</i></p>
 
 <ul>
@@ -55,9 +57,11 @@
 	<li><b>New York City, New York</b></li>
     <li>Deliver hot and fresh pizza to New Yorkers across the city in a reasonable amount of time.</li>
 </ul>
+</div>
 
+<div class="jobs">
 
-<h3>The Observer Weekly Newspaper</h3>
+<h3 id="newspaper">The Observer Weekly Newspaper</h3>
 <p><i>Freelance Photographer</i></p>
 
 <ul>
@@ -67,12 +71,13 @@
     <li>Retouch, resize and enhance images as needed using Photoshop or other photography software.</li>
     <li>Use technical equiment to capture images in the city.</li>
 </ul>
+</div>
 </article>
 
     <hr>
 <article>
 
-    <h2>Hobbies</h2> <h4>(Most to least favorite)</h4>
+    <h2 class="title">Hobbies</h2> <h4>(Most to least favorite)</h4>
 <!--ordered list -->
     <ol>
         <li>Saving New York City.</li>
@@ -86,7 +91,7 @@
 <hr>
 <aside>
  <!-- table -->
-   <table border="1">
+   <table>
       <tr>
       	<th></th>
         <th>Sun</th>
@@ -153,7 +158,6 @@
  Queens, New York<br>
   USA
   </address>
-    <footer id="footer">&copy; 2018</footer>
 
 
 </body>

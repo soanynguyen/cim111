@@ -1,5 +1,5 @@
 header{
-    height: 200px;
+    height: 230px;
     width: 200%
 }
 
@@ -14,10 +14,19 @@ article {
     }
    
 h1 {
-    color: white;
+    color: black;
     font-family: 'Bangers', cursive;
     }
-    
+
+h1.title {
+    font-size: 60px;
+
+}
+
+.title {
+        background-color: yellow;
+}
+
 h2 {
     color: blue;
     text-align: center;
@@ -26,8 +35,9 @@ h2 {
 
 }
 
-p.fast {
-    color: yellow;
+.jobs {
+        text-align: left;
+
 }
 
 body {
@@ -35,10 +45,16 @@ body {
     }
     
 
-#facts {
-    background-color: red;
-    color: white;
+#pizza {
+    color: red;
+    font-family: helvetica;
+
     }
+
+#newspaper {
+    color: green;
+    font-family: courier;
+ }
 
 aside {
   background-color: black;  
@@ -57,5 +73,14 @@ a:link {
   text-decoration: none;
 }
 
-p {
+ul{
+  list-style-type: disc; 
+   list-style-position: inside;
+   margin-left: 20px; 
+}
+
+
+li{
+      list-style-type: disc; 
+    margin-bottom: 10px;
 }
