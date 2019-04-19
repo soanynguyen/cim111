@@ -1,0 +1,232 @@
+body {
+	background: #FFA365;
+	border: 1;
+	padding: 10px 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container{
+	display: grid;
+	grid-gap: 20px;
+}
+
+.city{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas:
+		"logo logo population"
+		"logo logo income"
+}
+
+.top{
+	background-color: rgba();
+	width: 300px;
+	height: 150px;
+	padding-left: 10px;
+}
+
+.webLogo{
+	grid-area: logo;
+	min-height: 400px;
+	background: blue;
+	background-image: url();
+	color: white;
+	background-size: cover;
+	background-position: bottom right;
+	padding: 50px;
+	display: grid;
+	justify-content: start;
+	align-content: center;
+}
+
+.web{
+	background-color:;
+	color: white;
+	display: grid;
+	align-items: center;
+	align-content: center;
+}
+
+.web p{
+	margin: 0;
+}
+
+.amount{
+	font-size: 60px;
+	font-weight: 300;
+}
+
+.population{
+	grid-area: population;
+}
+
+.income{
+	grid-area: income;
+}
+
+.top{
+	font-size: 16px;
+}
+
+/*NAV///////// */
+
+.menu ul{
+	display: grid;
+	padding: 0;
+	list-style: none;
+	grid-template-columns: repeat(auto-fit, minmax(100px 1fr));
+}
+
+li{
+	margin-right: 10px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+		margin-right: 20px;
+		margin-bottom: 10px;
+	background-color: rgb(23,202,255);
+}
+
+.menu a:hover{
+	text-decoration: underline;
+	background-color: blue;
+
+}
+
+.features{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px 1fr));
+}
+
+.feature h3{
+	color: orange;
+}
+
+.feature{
+	background: gray;
+	padding: 10px;
+	border: 1px solid white;
+	text-align: center;
+}
+
+.feature icon{
+	font-size: 50px;
+	color: white;
+}
+
+.feature p{
+	color: white;
+}
+
+
+.about{
+	background: green;
+	color: white;
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 400px 1fr;
+}
+
+.gallery{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(200px 1fr));
+}
+
+.gallery img{
+	width: 100%;
+}
+
+.gallery h2{
+	grid-column: 1/ - 1;
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	grid-gap: 20px;
+	align-items: center;
+}
+
+.gallery h2:before, .gallery h2:after{
+	display: block;
+	content: ;
+	height: 10px;
+	background: green;
+}
+
+
+/*NAV///////// */
+@media (max-wdith: 700px){
+
+	.city{
+		grid-template-areas:
+		"logo logo"
+		"population income"
+	}
+
+	li{
+		font-size: 14px;
+		margin-bottom: 20px;
+		height: 7px;
+	}
+
+@media (max-wdith: 500px){
+
+	.city{
+		grid-template-areas:
+		"logo"
+		"population"
+		"income"
+	}
+
+	.price{
+		font-size: 24px;
+		font-weight: 300;
+		margin-left: 10px;
+	}
+
+	.img{
+		width: 250px;
+	}
+
+	.about{
+		grid-template-columns: 300px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
